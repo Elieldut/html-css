@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="fave.icon.200.png" type="image/x-icon">
+        <title>Parágrafos</title>
+        <style>
+        
+        body{
+            background-color: rgb(236, 227, 146);
+             }
+
+        </style>
+        <style>
+            mark{ background-color: aqua;
+
+            }
+        </style>
+    </head> 
+    <body>
+        
+        <h1><ing><ins>Parágrafos e quebras de linhas</ins></ing></h1>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dignissimos eos placeat accusamus aliquam eaque laboriosam fugiat cupiditate, animi unde minima maxime a nam dolorem omnis tenetur dolores officiis? Odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae modi libero architecto praesentium, error placeat! Reprehenderit assumenda deserunt explicabo, illum nobis cum, est corrupti architecto voluptatem ex dolorum, voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis quas harum minima repellat corporis nemo earum corrupti cumque consequuntur consequatur sed, inventore dolores voluptas aliquam nihil quo ducimus alias?totam</p>
+        <br> 
+        &lt;br&gt;
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolores repellat modi tempora et, omnis, sunt, voluptatibus dicta ea  autem excepturi consectetur. Amet, eligendi asperiores. Facilis rem quos dolorem non animi nihil, aliquam excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui sed doloribus nobis natus, reprehenderit quasi id provident! Possimus fuga recusandae unde doloremque reiciendis dolore mollitia animi quae, incidunt ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum id soluta corporis, eos excepturi ipsam esse ipsa molestiae, ab recusandae? Deserunt necessitatibus vero ipsa minus voluptas suscipit commodi provident?</p>
+        &lt;p&gt; e &lt;/p&gt; <!--Less than/Greater than-->
+
+        <!--class 2-->
+        <p><ins>Vamos adicionar alguns símbolos especiais:</ins>
+
+        &copy;&reg; <!--Todos permitem que você use símbolos -->
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &delta;
+
+        </p>
+        <p><ins>Vamos adicioar alguns emojis</ins>
+            &#123223; 
+        </p>
+        <hr>
+
+        <!--class 3-->
+        <h1><ins>Testando carga e imagens</ins></h1>
+        <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p> <img src="fave.icon.200.png" alt="Logo html">
+        <p>Podemos carregar imagens que estão em sub-pastas.</p>
+        <img src="css-3.png" alt="Logo css">
+        <p>Também podemos carregar imagens externas</p>
+        <img src="javascript-2752148-2284965.webp" alt="Logo javascript">
+<hr>
+        <!--class 4-->
+        <h1><ins>Semântica significado html5</ins></h1>
+        <code> <p>Semântica: tem muito mais valor o significado do que a forma. Vamos ver formulas obsoletas como &lt;big&gt;&lt;/big&gt;.
+            <address>Eu moro em são josé da prada, 765 </address> 
+        </p></code>
+
+        <!--class 5-->
+        <h1><ins>Principais formatações</ins></h1>
+
+        <h2>Negrito/Destaque</h2>
+        <p>Nesta frase temos um termo em <b>Negrito</b>. Mas usamos a tag &lt;B&gt; ela e uma (tag não semântica com sentido de forma)</p>
+        <P>termo em destaque em <strong>Negrito</strong> usando a tag &lt;strong&gt; (tag semântica com sentido de significado)</P>
+       
+        <h1>Itálico/Ênfase</h1>
+        <p>Nesta frase, temos um <i>termo em intálico</i> usando a tag I (não semântica)</p>
+        <p>Nesta frase temos um <em>termo em Ênfase</em> usando a tag (em semântica)</p>
+
+        <h2>Texto com marcações</h2>
+        <p>Como marcar frase ou texto com a <mark>tag mark</mark></p>
+        <p>Como marcar todas as frases ou <mark>tags com um mark</mark> de uma vez e mudar a cor de tudo</p>
+
+        <h2>Texto grande e pequeno</h2>
+        <p>Esta,os criando um <big>texto grande</big> e um <small>texto pequeno</small></p>
+
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar um texto excluído para indicar que ele pode ser lido, <del>mas não considerado</del></p>
+        <h2>Texto inserido</h2>
+        <p><ins>Podemos marcar um texto para indicar que ele foi adicionado</ins></p>
+
+
+        <h2>Texto sobre escrito</h2>
+        <p>Para inserir formulas por exemplo <sub>x</sub><sap>2</sap></p>
+        <h2>Texto sobre escrito e texto subscrito</h2>
+        <P>Para inserir formulas por exemplo H<sub>2</sub>O</P>
+
+        <!--class 6-->
+        <h1>Outras formatações</h1>
+        <h2>Código fonte</h2>
+        <p>O comando <code>document.getElementbyid ('Teste')</code></p>
+                    
+            <PRE>
+                <code>
+                    int
+                    main(int argc, char *argv[])
+                    {
+                    Py_SetProgramName(argv[0]);  /* optional but recommended */
+                    Py_Initialize();
+                    PyRun_SimpleString("print('Hello world !')");
+                    Py_Finalize();
+                    return 0;
+                    }
+                </code>
+            </PRE>
+            <h2>Citações</h2>
+            <p><q>Como diria um pai de um amigo o computador e um buuro muito rapido</q></p>
+            <!--Use a tag Q para colocar "" em uma frase, e mais para dar sentido-->
+            <Blockquote cite="https://www.culturagenial.com/frase-so-sei-que-nada-sei/#:~:text=Ao%20proferir%20a%20frase%20%22S%C3%B3%20sei%20que%20nada,fato%20de%20que%20tamb%C3%A9m%20nada%20tem%20para%20ensinar.">Só sei que nada sei</Blockquote>
+
+            <h2>Abreviações</h2>
+            <p>estou estudando <abbr title="HYPER TEXT MARKAUP LANGUAGE">HTML</abbr> e <abbr title="CASCADING STYLE SHEETS">CSS</abbr></p>
+            <h2>Tudo ao contrario</h2>
+            <p><bdo dir="rtl">I don't know about nothing</bdo></p>
+
+            <h1><ins>Trabalhando com listas</ins></h1>
+            <h2>Listas ordenadas</h2>
+            
+            <ol type="a" start="1"> 
+                <!--a-A-i-I-1 coloque o start para escolher o tipo de indicativos numéricos. O start e para mostrar de onde você quer começar.-->
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para o trabalho</li>
+                <li>Ir para a faculdade</li>
+                <li>Ir para á acadeia</li>
+                <li>Voltar para casa</li>
+                <li>Jantar</li>
+                <li>Dormir</li>
+            </ol>
+
+            <h2>Listas não ordenadas</h2>
+            <!--Disc-square-circle-->
+            <ul type="circle">
+                <li>Pão</li>
+                <Li>Leite</Li>
+                <li>Tomate</li> 
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+                <li>Alface</li>
+                <li>Café</li>
+            </ul>
+            <h2>Minhas linguagens favoritas</h2>
+            <ol>
+                <li>Antigas</li>
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Visual Basic </li>
+                    <li>Fortran</li>
+                    <li>Delphi</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="a" start="5">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>javascript</li>
+                    <li>kotlin</li>
+                </ol>
+            </ol>
+            <h2>Meus jogos favoritos</h2>
+            
+            <ol>
+                <li>ps2</li>
+            <ul type="square">
+                <li>black</li>
+                <ul type="circle">
+                    <li>black 2</li>
+                </ul>
+                <li>fifa street</li>
+            </ul>
+            <li>Xbox</li>
+            <ul type="square">
+                <li>Lego</li>
+                <li>Minecraft</li>
+            </ul>
+            <li>Tell</li>
+            <ul type="square">
+                <li>Clash royal</li>
+                <li>free fire</li>
+            </ul>
+            </ol>
+
+            <h2>Lista de Definição</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação para a criação de um site</dd>
+                <dt>CSS</dt>
+                <dd>Liguagem de marcação para a criação de design de um site</dd>
+                <dt>Javascript</dt>
+                <dd>Linguagem de marcação para a criação de interatividade de um site.</dd>
+            </dl>
+
+            <h1><ins>Usando links externos</ins></h1>
+            <p>Você pode acessar o meu 
+                <a href="https://gustavoguanabara.github.io/" target="_blank" rel="extarnal">repositório público no github</a></p>
+                <!--Use o target="_blank" rel="external" para que o usúario possa abrir outra página sem fechar a sua.-->
+                <p>Você pode acessar o meu <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="extarnal">gratuito do youtube</a></p>
+
+                <h2><ins>Usando links internos</ins></h2>
+                <p>Esta e a primeira página do site. Se você quiser você consegue acessar minha <a href="pag002.html" target="_blank" rel="next">segunda página</a> </p>
+    </body> 
+
+    </body>
+</html>

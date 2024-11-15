@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <style>
+        h1{
+        font-size: 2.5em;
+        }
+
+        p{
+            font-size: 1.2em; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a Imagem completa? Experimente ampliar o tamanho da sua janela para ter uma melhor experiência</p>
+    
+    <picture>
+        <source media="(min-width:740px)" srcset="paisagem-m" type="image/png">
+        <source media="(min-width:1200px)" srcset="paisagem-g" type="image/png">
+        <img src="paisagem-p.png" alt="Img Adaptavel">
+    </picture>
+</body>
+</html>

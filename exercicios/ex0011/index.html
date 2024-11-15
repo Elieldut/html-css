@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex0010/HTML5_Ful.png" type="image/x-icon">
+    <title>Mídias em Html5</title>
+</head>
+<body>
+    <h1><ins>Imagem dinámica</ins></h1>
+    <p><strong>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</strong></p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+            <img src="Image/foto-G.png" alt="A Imagem flexível funciona">
+        </picture>
+    </p>
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos aprender a reproduzir áudio em Html5.</p>
+    <audio src="../ex0011/skyfall (where you go i go x climax) full song_o-SyD_gZtL0.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop> 
+       <source src="skyfall (where you go i go x climax) full song_o-SyD_gZtL0.mp3" type="audio/mpeg">
+       <source src="skyfall (where you go i go x climax) full song_o-SyD_gZtL0.mp3" type="audio/ogg">
+       <source src="../ex0011/skyfall (where you go i go x climax) full song_o-SyD_gZtL0.mp3" type="audio/wav">
+
+       <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="skyfall (where you go i go x climax) full song_o-SyD_gZtL0.mp3">Clique aqui para baixar o arquivo</a>
+       </p>
+    </audio>
+</body>
+</html>

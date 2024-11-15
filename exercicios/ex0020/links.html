@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        #   = id
+        .   = class
+        :   = pseudo class
+        ::  = pseudo element
+        >   = clildren -> para localizar onde configurar as divs
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color:rgb(255, 255, 255) ;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited{
+            /*Essa tag deixa o link marcado logo apos acessá-lo*/
+            color: #ff0000;
+            
+        }
+
+        a:hover{
+            color:rgb(0, 0, 0) ;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(255, 251, 0);
+        }
+
+        .especial{
+            background-color: #ff000031;
+        }
+
+        .especial::before{
+            content: '=>';
+
+        }
+
+        .especial::after{
+            content:'<=';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a class="especial" href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcoqiwoyE1XYDRgdGDwYkvPLMkoTQIAWC4HFA&q=github&oq=gi&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxjHARjRAxiABBiKBTIGCAAQRRg5MhIIARAuGCcYxwEY0QMYgAQYigUyDQgCEC4YgwEYsQMYgAQyCggDEAAYsQMYgAQyCggEEAAYsQMYgAQyBwgFEAAYgAQyDQgGEAAYgwEYsQMYgAQyCggHEC4YsQMYgAQyBwgIEAAYgATSAQkyNjg2ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8" target="_blank">Repositorio Github</a></li>
+        <li><a class="especial" href="https://youtube.com/Cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.Cursoemvideo.com" target="_blank">Site do Cursoemvideo</a></li>
+        
+    </ul>
+</body>
+</html>

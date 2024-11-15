@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="foto-p.png" type="image/x-icon">
+        <title>Inserindo imagens em um site</title>
+    </head>
+    <body>
+        <h1><ins>Imagem dinâmica</ins></h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+        <picture>
+            <source media="(max-width: 700px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="foto-m.png" type="image/png">
+            <img src="foto-G.png" alt="Imagem flexível">
+            
+        </picture>
+
+        <h1><ins>Reproduzindo Áudio</ins></h1>
+        <p>Vamos reproduzir áudios em html5</p>
+       <audio preload="metadata" controls loop> 
+        <source src="..//Smashing Car Mirror Series.mp3" type="audio/mpeg">
+        <source src="..//Smashing Car Mirror Series.mp3" type="audio/ogg">
+        <source src="..//Smashing Car Mirror Series.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="..//Smashing Car Mirror Series.mp3"> Clique aqui para baixar o arquivo em MP3</a></p>
+       </audio>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                margin: 0%;
+            }
+
+            nav{
+                background-color:#808080d0;
+                padding: 3px;
+                box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.747) ;
+            }
+
+            nav > a{
+                text-decoration: none;
+                color: white;
+                margin-right: 3em;
+            }
+
+            nav > a:hover{
+                color: blue;
+                text-decoration: underline;
+            }
+            nav > a:active{
+                color: #ff0000;
+
+            }
+
+            header{
+                background-color: white;
+                padding:10px;
+                margin: 10px;
+                border-radius: 12px;
+            }
+
+            main{
+                background-color:white;
+                padding: 10px;
+                margin:10px;
+                border-radius: 12px;
+            }
+
+            footer{
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin: 0px;
+                font-size: 1.4em;
+            }
+
+            .a1{
+                color: aliceblue;
+            }
+
+            .a1:hover{
+                background-color: rgb(65, 65, 11);
+            }
+
+            .a1:active{
+                color: aqua;
+            }
+
+            .a1:visited{
+                color: rgb(71, 0, 71);
+            }
+
+            article{
+                background-color: rgba(181, 190, 199, 0.473);
+                padding: 1px;
+            }
+
+            .article{
+                background-color: #80808054;
+            }
+
+            .bola{
+                height: 200px;
+                width:200px;
+                margin: 2%;
+                background-color: white;
+                border-radius: 50%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                <p>Esportes e tecnologia</p>
+            </section>
+            <section id="news">
+                <article>
+                    <aside>
+                        <h2>News about brazil</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rem nulla corrupti sequi odio laborum quo iste laudantium iure fuga quia modi deleniti vero id assumenda maxime illo repudiandae quidem.</p>
+                        <p class="article">Ártigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+                <article>
+                    
+                </article>
+
+            </section>
+        </main>
+        <footer>
+            <p><a class="a1" href="a" target="_blank">Desenvolvido pelo Cursoem/video</a></p>
+        </footer>
+        <img class="bola" src="image_preview.png" alt="">
+
+    </body>
+</html>
