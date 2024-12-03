@@ -56,7 +56,7 @@
 
     main{
     background-color: white;
-    padding: 2%;
+    padding: 2.5%;
     margin-left: 10%;
     margin-right: 10%;
     line-height: 30px;
@@ -66,6 +66,7 @@
     }
 
     main > h2{
+            padding: 1%;
             font-size:1.6em;
             text-decoration: underline;
             text-align: center;
@@ -108,7 +109,6 @@
     position: relative;
     background-size: cover;
     font-size: 0.9em;
-    text-align: center;
     }
 
     div{
@@ -127,6 +127,11 @@
         font-weight: bolder;
         text-shadow: 3px 2px black;
         font-size: 1.4em;
+
+    }
+
+    aside h2{
+        text-align: center;
     }
 
     article h2{
