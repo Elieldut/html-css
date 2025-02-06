@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        form{
+            margin: auto;
+        }
+
+        p{
+            font-size:2em;
+            text-align: left;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+        <label for="icone">Time</label>
+        <input type="text" name="Time" id="icone" autocomplete="work" minlength="6" maxlength="15" required>
+    </p>
+    <p>
+        <label for="ihora">Horário</label>
+        <input type="time" name="hora" id="ihora" value="17:00" required>
+    </p>
+    <p>
+        <label for="idia">Dia do Jogo</label>
+        <input type="date" name="Data" id="idia" value="2025-02-05" required>
+    </p>
+    <p>
+        <label for="iresultado">Placar</label>
+        <br>
+        <input type="image" src="Imagem do WhatsApp de 2025-02-06 à(s) 13.19.55_4679e778.jpg" alt="" width="220px" required>
+    </p>
+    <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
